@@ -15,7 +15,7 @@ static  NSString * kLinkedInSecretKey=@"SEFTnXX310DnJtE6";
 //static const NSString * kLinkedInOAuthUserToken=@"394c8fdb-d189-4c97-bb33-602dcb83cdcb"; //May be deprecated
 //static const NSString * kLinkedInOAuthUserSecret=@"2ee1d5eb-2958-47c4-bcde-f31236974d3a"; //May be deprecated
 
-@interface SLVLinkedInViewController ()
+@interface SLVLinkedInViewController () <UIWebViewDelegate>
 
 @property (nonatomic) UIWebView *webView;
 
@@ -39,6 +39,7 @@ static  NSString * kLinkedInSecretKey=@"SEFTnXX310DnJtE6";
     [super viewDidLoad];
     CGRect web=CGRectMake(self.view.bounds.origin.x, self.view.bounds.origin.y+150, self.view.bounds.size.width, self.view.bounds.size.height);
     self.webView=[[UIWebView alloc] initWithFrame:web];
+    self.webView.delegate=self;
     self.webView.scalesPageToFit=YES;
     
     {
@@ -81,12 +82,33 @@ static  NSString * kLinkedInSecretKey=@"SEFTnXX310DnJtE6";
     NSNumber *intervalObj=[NSNumber numberWithDouble:interval];
     [path appendString:[intervalObj stringValue]];
     
-    [path appendString:@"&redirect_uri=http://localhost"];
+    [path appendString:@"&redirect_uri=http://example.com"];
 
     NSURLRequest *request=[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:path]];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]]];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost"]]];
+    [self.webView loadRequest:request];
+    //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]]];
+    //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost"]]];
     
 }
+
+#pragma mark - WebViewDelegate
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    NSString *url=request.URL.absoluteString;
+
+
+    if([url rangeOfString:@"http://example.com"].location!=NSNotFound)
+    {
+        NSInteger range=[url rangeOfString:@"code="].location;
+        NSLog(@"%d", range);
+        {}
+        
+    }
+    
+    return YES;
+}
+
+
 
 @end
