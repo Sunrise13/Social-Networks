@@ -16,6 +16,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         dbManager = [[self alloc] init];
+        [dbManager loadStore];
     });
     return dbManager;
 }

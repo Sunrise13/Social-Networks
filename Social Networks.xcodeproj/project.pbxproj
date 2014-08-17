@@ -14,6 +14,7 @@
 		D229A1FD199E132000508D2F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D229A1FB199E132000508D2F /* Model.xcdatamodeld */; };
 		D229A208199E469B00508D2F /* SLVLinkedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D229A207199E469B00508D2F /* SLVLinkedInViewController.m */; };
 		D229A20B199E56A900508D2F /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = D229A20A199E56A900508D2F /* Users.m */; };
+		D2A9EF1619A0F39400FAB25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BC690A199CB8D800173EFD /* Main.storyboard */; };
 		D2BC68F9199CB8D800173EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC68F8199CB8D800173EFD /* Foundation.framework */; };
 		D2BC68FB199CB8D800173EFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC68FA199CB8D800173EFD /* CoreGraphics.framework */; };
 		D2BC68FD199CB8D800173EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC68FC199CB8D800173EFD /* UIKit.framework */; };
@@ -312,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A9EF1619A0F39400FAB25F /* Main.storyboard in Resources */,
 				D2BC6911199CB8D800173EFD /* Images.xcassets in Resources */,
 				D2BC6903199CB8D800173EFD /* InfoPlist.strings in Resources */,
 			);

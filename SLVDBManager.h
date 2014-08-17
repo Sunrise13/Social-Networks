@@ -30,6 +30,7 @@ typedef enum Service
 @property (nonatomic) NSManagedObjectModel *model;
 
 + (id)sharedManager;
+-(void)saveChanges;
 -(Users *)addUserWithType:(Service)type andToken:(NSString *)token;
 -(Service *)addServiceWithType:(Service)type apiKey:(NSString *)apiKey secretKey:(NSString*)secretKey;
 
