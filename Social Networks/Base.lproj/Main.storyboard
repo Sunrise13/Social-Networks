@@ -150,10 +150,10 @@
             </objects>
             <point key="canvasLocation" x="503" y="140"/>
         </scene>
-        <!--View Controller-->
+        <!--Odnoklassniki-->
         <scene sceneID="P2F-fG-kHh">
             <objects>
-                <viewController id="yVW-qh-s5v" sceneMemberID="viewController">
+                <viewController id="yVW-qh-s5v" customClass="Odnoklassniki" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jLd-wX-xDk"/>
                         <viewControllerLayoutGuide type="bottom" id="0Nd-ta-avu"/>
