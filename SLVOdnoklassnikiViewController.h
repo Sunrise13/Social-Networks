@@ -1,5 +1,5 @@
 //
-//  SLVOdnoklassniki.h
+//  SLVOdnoklassnikiViewController.h
 //  Social Networks
 //
 //  Created by Roman on 8/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SLVOdnoklassniki : UIViewController
+@interface SLVOdnoklassnikiViewController : UIViewController
 
 @end

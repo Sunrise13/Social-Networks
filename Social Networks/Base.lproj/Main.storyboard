@@ -52,7 +52,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="4fe-i7-eXL" kind="push" id="IYw-Zo-3YZ"/>
+                                            <segue destination="5tV-m4-a4K" kind="push" id="A8E-aV-p1F"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="g+" textLabel="Z6v-RG-THC" style="IBUITableViewCellStyleDefault" id="lka-07-dlr">
@@ -154,6 +154,33 @@
             <point key="canvasLocation" x="503" y="140"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="Ny1-Cn-UM1">
+            <objects>
+                <viewController id="5tV-m4-a4K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Aj-5v-gXT"/>
+                        <viewControllerLayoutGuide type="bottom" id="iPj-DJ-VwN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eLz-96-ouS">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Odnoklassniki" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dm8-bU-G2F">
+                                <rect key="frame" x="46" y="106" width="220" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TkL-lI-Rfk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lct-PK-RMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1831" y="824"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="w32-TW-t5p">
             <objects>
                 <viewController id="xS9-4c-xEN" customClass="SLVGViewController" sceneMemberID="viewController">
@@ -171,25 +198,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHA-mf-e0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1831" y="-440"/>
-        </scene>
-        <!--Odnoklassniki-->
-        <scene sceneID="qDC-U6-OEe">
-            <objects>
-                <viewController id="4fe-i7-eXL" customClass="SLVOdnoklassniki" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OaN-TM-VV2"/>
-                        <viewControllerLayoutGuide type="bottom" id="AaC-w3-Yar"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="B0S-T2-shU">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="db0-jF-XAy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XRo-37-BHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1831" y="784"/>
         </scene>
         <!--Linked In View Controller-->
         <scene sceneID="fOc-qj-j6C">

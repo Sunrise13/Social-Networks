@@ -1,18 +1,18 @@
 //
-//  SLVOdnoklassniki.m
+//  SLVOdnoklassnikiViewController.m
 //  Social Networks
 //
 //  Created by Roman on 8/17/14.
 //  Copyright (c) 2014 SoftServe Lv-120. All rights reserved.
 //
 
-#import "SLVOdnoklassniki.h"
+#import "SLVOdnoklassnikiViewController.h"
 
-@interface SLVOdnoklassniki ()
+@interface SLVOdnoklassnikiViewController ()
 
 @end
 
-@implementation SLVOdnoklassniki
+@implementation SLVOdnoklassnikiViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
