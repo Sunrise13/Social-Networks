@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="pRC-eG-toc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--Table View Controller - Root View Controller-->
@@ -52,7 +52,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="yVW-qh-s5v" kind="push" id="Dz4-ZG-snR"/>
+                                            <segue destination="4fe-i7-eXL" kind="push" id="IYw-Zo-3YZ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="g+" textLabel="Z6v-RG-THC" style="IBUITableViewCellStyleDefault" id="lka-07-dlr">
@@ -153,24 +153,43 @@
             </objects>
             <point key="canvasLocation" x="503" y="140"/>
         </scene>
-        <!--Odnoklassniki-->
-        <scene sceneID="P2F-fG-kHh">
+        <!--View Controller-->
+        <scene sceneID="w32-TW-t5p">
             <objects>
-                <viewController id="yVW-qh-s5v" customClass="Odnoklassniki" sceneMemberID="viewController">
+                <viewController id="xS9-4c-xEN" customClass="SLVGViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jLd-wX-xDk"/>
-                        <viewControllerLayoutGuide type="bottom" id="0Nd-ta-avu"/>
+                        <viewControllerLayoutGuide type="top" id="TUl-iv-AGQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="YHA-gt-fB0"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cJr-6D-OUM">
+                    <view key="view" contentMode="scaleToFill" id="1W2-fM-OR3">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6Ed-IE-iVU"/>
+                    <navigationItem key="navigationItem" id="z9m-Ol-BO7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GJm-Dc-DWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wHA-mf-e0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1831" y="-251"/>
+            <point key="canvasLocation" x="1831" y="-440"/>
+        </scene>
+        <!--Odnoklassniki-->
+        <scene sceneID="qDC-U6-OEe">
+            <objects>
+                <viewController id="4fe-i7-eXL" customClass="Odnoklassniki" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OaN-TM-VV2"/>
+                        <viewControllerLayoutGuide type="bottom" id="AaC-w3-Yar"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B0S-T2-shU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="db0-jF-XAy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XRo-37-BHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1831" y="784"/>
         </scene>
         <!--Linked In View Controller-->
         <scene sceneID="fOc-qj-j6C">
