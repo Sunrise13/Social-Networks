@@ -311,6 +311,7 @@
 			files = (
 				D229A208199E469B00508D2F /* SLVLinkedInViewController.m in Sources */,
 				D2BC6909199CB8D800173EFD /* SLVAppDelegate.m in Sources */,
+				4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */,
 				D2BC690F199CB8D800173EFD /* SLVViewController.m in Sources */,
 				3056B37019A0E24B0097F908 /* Odnoklassniki.m in Sources */,
 				D229A20B199E56A900508D2F /* Users.m in Sources */,
