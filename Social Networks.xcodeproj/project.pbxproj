@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3056B37A19A0E8F50097F908 /* SLVOdnoklassnikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3056B37919A0E8F50097F908 /* SLVOdnoklassnikiViewController.m */; };
-		3056B38519A0ED000097F908 /* SLVVkontakteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3056B38419A0ED000097F908 /* SLVVkontakteViewController.m */; };
 		4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCD02319A0E26F00CB65D7 /* SLVGViewController.m */; };
 		D229A1F6199E10DF00508D2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D229A1F5199E10DF00508D2F /* CoreData.framework */; };
 		D229A1FA199E112F00508D2F /* SLVDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D229A1F9199E112F00508D2F /* SLVDBManager.m */; };
@@ -21,7 +20,6 @@
 		D2BC6903199CB8D800173EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2BC6901199CB8D800173EFD /* InfoPlist.strings */; };
 		D2BC6905199CB8D800173EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC6904199CB8D800173EFD /* main.m */; };
 		D2BC6909199CB8D800173EFD /* SLVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC6908199CB8D800173EFD /* SLVAppDelegate.m */; };
-		D2BC690C199CB8D800173EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BC690A199CB8D800173EFD /* Main.storyboard */; };
 		D2BC690F199CB8D800173EFD /* SLVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC690E199CB8D800173EFD /* SLVViewController.m */; };
 		D2BC6911199CB8D800173EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BC6910199CB8D800173EFD /* Images.xcassets */; };
 		D2BC6918199CB8D900173EFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC6917199CB8D900173EFD /* XCTest.framework */; };
@@ -316,7 +314,6 @@
 			files = (
 				D2BC6911199CB8D800173EFD /* Images.xcassets in Resources */,
 				D2BC6903199CB8D800173EFD /* InfoPlist.strings in Resources */,
-				D2BC690C199CB8D800173EFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +336,6 @@
 				D2BC6909199CB8D800173EFD /* SLVAppDelegate.m in Sources */,
 				4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */,
 				D2BC690F199CB8D800173EFD /* SLVViewController.m in Sources */,
-				3056B38519A0ED000097F908 /* SLVVkontakteViewController.m in Sources */,
 				D229A20B199E56A900508D2F /* Users.m in Sources */,
 				3056B37A19A0E8F50097F908 /* SLVOdnoklassnikiViewController.m in Sources */,
 				D229A1FD199E132000508D2F /* Model.xcdatamodeld in Sources */,

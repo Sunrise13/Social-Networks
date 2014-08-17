@@ -100,9 +100,11 @@ static  NSString * kLinkedInSecretKey=@"SEFTnXX310DnJtE6";
 
     if([url rangeOfString:@"http://example.com"].location!=NSNotFound)
     {
-        NSInteger range=[url rangeOfString:@"code="].location;
-        NSLog(@"%d", range);
-        {}
+        NSInteger loc=[url rangeOfString:@"code="].location;
+        NSInteger loc2=[url rangeOfString:@"&state="].location;
+        NSRange range=NSMakeRange(loc, loc2-loc);
+        {
+        }
         
     }
     
