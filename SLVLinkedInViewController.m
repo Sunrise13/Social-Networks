@@ -48,7 +48,7 @@ static  NSString * kLinkedInSecretKey=@"SEFTnXX310DnJtE6";
         NSPredicate *pred=[NSPredicate predicateWithFormat:@"serviceType==[c]\"LinkedIn\""]; //serviceType
         [request setPredicate:pred];
         NSArray *service=[[[SLVDBManager sharedManager] context] executeFetchRequest:request error:nil];
-        if(!service)
+        if([service count]==0)
         {
            [self setupLinkedIn];
         }
