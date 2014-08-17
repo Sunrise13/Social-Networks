@@ -52,7 +52,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5tV-m4-a4K" kind="push" id="A8E-aV-p1F"/>
+                                            <segue destination="5tV-m4-a4K" kind="push" identifier="Odnoklassniki" id="A8E-aV-p1F"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="g+" textLabel="Z6v-RG-THC" style="IBUITableViewCellStyleDefault" id="lka-07-dlr">
@@ -92,7 +92,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="NST-Em-hpe" kind="push" id="WFb-yr-ukM"/>
+                                            <segue destination="NST-Em-hpe" kind="push" identifier="VK" id="WFb-yr-ukM"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="52e-k7-dew" style="IBUITableViewCellStyleDefault" id="kSd-GD-8u9">
