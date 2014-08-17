@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCD02319A0E26F00CB65D7 /* SLVGViewController.m */; };
 		D229A1F6199E10DF00508D2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D229A1F5199E10DF00508D2F /* CoreData.framework */; };
 		D229A1FA199E112F00508D2F /* SLVDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D229A1F9199E112F00508D2F /* SLVDBManager.m */; };
 		D229A1FD199E132000508D2F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D229A1FB199E132000508D2F /* Model.xcdatamodeld */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DDCD02219A0E26F00CB65D7 /* SLVGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVGViewController.h; sourceTree = "<group>"; };
+		4DDCD02319A0E26F00CB65D7 /* SLVGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVGViewController.m; sourceTree = "<group>"; };
 		D229A1F5199E10DF00508D2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D229A1F8199E112F00508D2F /* SLVDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVDBManager.h; sourceTree = "<group>"; };
 		D229A1F9199E112F00508D2F /* SLVDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVDBManager.m; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DDCD01E19A0E0EA00CB65D7 /* g+Veiw */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCD02219A0E26F00CB65D7 /* SLVGViewController.h */,
+				4DDCD02319A0E26F00CB65D7 /* SLVGViewController.m */,
+			);
+			name = "g+Veiw";
+			sourceTree = "<group>";
+		};
 		D229A1F7199E10EA00508D2F /* DBManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 		D2BC68EC199CB8D800173EFD = {
 			isa = PBXGroup;
 			children = (
+				4DDCD01E19A0E0EA00CB65D7 /* g+Veiw */,
 				D229A205199E3DC400508D2F /* LinkedInView */,
 				D229A1F7199E10EA00508D2F /* DBManager */,
 				D2BC68FE199CB8D800173EFD /* Social Networks */,
@@ -298,6 +311,7 @@
 			files = (
 				D229A208199E469B00508D2F /* SLVLinkedInViewController.m in Sources */,
 				D2BC6909199CB8D800173EFD /* SLVAppDelegate.m in Sources */,
+				4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */,
 				D2BC690F199CB8D800173EFD /* SLVViewController.m in Sources */,
 				D229A20B199E56A900508D2F /* Users.m in Sources */,
 				D229A1FD199E132000508D2F /* Model.xcdatamodeld in Sources */,
