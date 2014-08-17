@@ -175,7 +175,7 @@
         <!--Odnoklassniki-->
         <scene sceneID="qDC-U6-OEe">
             <objects>
-                <viewController id="4fe-i7-eXL" customClass="Odnoklassniki" sceneMemberID="viewController">
+                <viewController id="4fe-i7-eXL" customClass="SLVOdnoklassniki" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OaN-TM-VV2"/>
                         <viewControllerLayoutGuide type="bottom" id="AaC-w3-Yar"/>

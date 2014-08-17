@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3056B37419A0E71D0097F908 /* Odnoklassniki.m in Sources */ = {isa = PBXBuildFile; fileRef = 3056B37319A0E71D0097F908 /* Odnoklassniki.m */; };
+		3056B37719A0E8460097F908 /* SLVOdnoklassniki.m in Sources */ = {isa = PBXBuildFile; fileRef = 3056B37619A0E8460097F908 /* SLVOdnoklassniki.m */; };
 		4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCD02319A0E26F00CB65D7 /* SLVGViewController.m */; };
 		D229A1F6199E10DF00508D2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D229A1F5199E10DF00508D2F /* CoreData.framework */; };
 		D229A1FA199E112F00508D2F /* SLVDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D229A1F9199E112F00508D2F /* SLVDBManager.m */; };
@@ -41,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3056B37219A0E71D0097F908 /* Odnoklassniki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Odnoklassniki.h; sourceTree = "<group>"; };
-		3056B37319A0E71D0097F908 /* Odnoklassniki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Odnoklassniki.m; sourceTree = "<group>"; };
+		3056B37519A0E8460097F908 /* SLVOdnoklassniki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVOdnoklassniki.h; sourceTree = "<group>"; };
+		3056B37619A0E8460097F908 /* SLVOdnoklassniki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVOdnoklassniki.m; sourceTree = "<group>"; };
 		4DDCD02219A0E26F00CB65D7 /* SLVGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVGViewController.h; sourceTree = "<group>"; };
 		4DDCD02319A0E26F00CB65D7 /* SLVGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVGViewController.m; sourceTree = "<group>"; };
 		D229A1F5199E10DF00508D2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -102,8 +102,8 @@
 		3056B37119A0E6FF0097F908 /* Odnoklassniki */ = {
 			isa = PBXGroup;
 			children = (
-				3056B37219A0E71D0097F908 /* Odnoklassniki.h */,
-				3056B37319A0E71D0097F908 /* Odnoklassniki.m */,
+				3056B37519A0E8460097F908 /* SLVOdnoklassniki.h */,
+				3056B37619A0E8460097F908 /* SLVOdnoklassniki.m */,
 			);
 			name = Odnoklassniki;
 			sourceTree = "<group>";
@@ -322,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3056B37719A0E8460097F908 /* SLVOdnoklassniki.m in Sources */,
 				D229A208199E469B00508D2F /* SLVLinkedInViewController.m in Sources */,
 				D2BC6909199CB8D800173EFD /* SLVAppDelegate.m in Sources */,
 				4DDCD02419A0E26F00CB65D7 /* SLVGViewController.m in Sources */,
@@ -329,7 +330,6 @@
 				D229A20B199E56A900508D2F /* Users.m in Sources */,
 				D229A1FD199E132000508D2F /* Model.xcdatamodeld in Sources */,
 				D2BC6905199CB8D800173EFD /* main.m in Sources */,
-				3056B37419A0E71D0097F908 /* Odnoklassniki.m in Sources */,
 				D229A1FA199E112F00508D2F /* SLVDBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

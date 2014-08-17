@@ -1,18 +1,18 @@
 //
-//  Odnoklassniki.m
+//  SLVOdnoklassniki.m
 //  Social Networks
 //
 //  Created by Roman on 8/17/14.
 //  Copyright (c) 2014 SoftServe Lv-120. All rights reserved.
 //
 
-#import "Odnoklassniki.h"
+#import "SLVOdnoklassniki.h"
 
-@interface Odnoklassniki ()
+@interface SLVOdnoklassniki ()
 
 @end
 
-@implementation Odnoklassniki
+@implementation SLVOdnoklassniki
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
