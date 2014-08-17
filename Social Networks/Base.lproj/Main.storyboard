@@ -75,14 +75,14 @@
                                             <segue destination="xS9-4c-xEN" kind="push" identifier="g+" id="ROd-VS-DjY"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="OEJ-pY-zyX" style="IBUITableViewCellStyleDefault" id="Kag-eG-qOc">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VK" textLabel="OEJ-pY-zyX" style="IBUITableViewCellStyleDefault" id="Kag-eG-qOc">
                                         <rect key="frame" x="0.0" y="196" width="768" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kag-eG-qOc" id="Xbv-vb-yof">
                                             <rect key="frame" x="0.0" y="0.0" width="735" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OEJ-pY-zyX">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="VK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OEJ-pY-zyX">
                                                     <rect key="frame" x="15" y="0.0" width="718" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -91,6 +91,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NST-Em-hpe" kind="push" id="WFb-yr-ukM"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="52e-k7-dew" style="IBUITableViewCellStyleDefault" id="kSd-GD-8u9">
                                         <rect key="frame" x="0.0" y="240" width="768" height="44"/>
@@ -179,6 +182,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lct-PK-RMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1831" y="824"/>
+        </scene>
+        <!--Vkontakte View Controller-->
+        <scene sceneID="Tfi-Xi-D7a">
+            <objects>
+                <viewController id="NST-Em-hpe" customClass="SLVVkontakteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xaU-3G-CGU"/>
+                        <viewControllerLayoutGuide type="bottom" id="d79-Bb-J7J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XAd-b2-oww">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXo-Pc-Yc0">
+                                <rect key="frame" x="60" y="108" width="61" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OBi-tI-Zke"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JG8-cj-IXv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1860" y="2035"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="w32-TW-t5p">
